@@ -5,6 +5,9 @@
  */
 package javalearning;
 
+import java.io.Console;
+import java.util.Scanner;
+
 /**
  *
  * @author divak
@@ -15,11 +18,14 @@ public class JavaLearning {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        final int a = 2;
-        final int b = 3;
+      
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the first value: ");
+        int a = in.nextInt();
+        System.out.println("Enter the second value: ");
+        int b = in.nextInt();
         
-        System.out.println(a+b);
-        
+        System.out.println("Total:"+ (a+b));
     }
     
 }
