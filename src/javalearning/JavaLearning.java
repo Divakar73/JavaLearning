@@ -15,7 +15,11 @@ public class JavaLearning {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        final int a = 2;
+        final int b = 3;
+        
+        System.out.println(a+b);
+        
     }
     
 }
